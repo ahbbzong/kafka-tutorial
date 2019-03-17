@@ -8,6 +8,9 @@ end
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
+set :markdown_engine, :kramdown
+set :markdown, :fenced_code_blocks => true, :smartypants => true
+
 # Per-page layout changes
 page '/*.xml', layout: false
 page '/*.json', layout: false
