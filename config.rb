@@ -11,6 +11,9 @@ end
 set :markdown_engine, :kramdown
 set :markdown, :fenced_code_blocks => true, :smartypants => true
 
+# all links are relative links now
+set :relative_links, true
+
 # Per-page layout changes
 page '/*.xml', layout: false
 page '/*.json', layout: false
